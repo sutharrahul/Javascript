@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(31, 31, 31);
+        }
+        h1{
+            color: rgb(253, 253, 253); 
+            font-size: 60px;
+
+        }
+        p{
+            color: rgb(253, 253, 253);
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculation of 2 Number</h1>
+    <p> </p>
+
+    <script>
+        let val1 = prompt('Enter 1st value =')
+let Opeartor = prompt('Enter Operator (+, -, *, / )')
+let val2 = prompt('Enter 2nd Value =')
+
+if(Opeartor == '+'){
+    sum = val1 +val2;
+    document.querySelector("p").innerHTML = `Sum <br> ${val1} + ${val2} = ${sum}`
+    
+}else if(Opeartor == '-'){
+    sub = val1 - val2;
+    document.querySelector("p").innerHTML = `Substraction <br> ${val1} - ${val2} = ${sub}`
+}else if(Opeartor == '*'){
+    mul = val1 * val2;
+    document.querySelector("p").innerHTML = `Multiplication <br> ${val1} x ${val2} = ${mul}`
+}else if(Opeartor == '/'){
+    div = val1 / val2;
+    document.querySelector("p").innerHTML = `Division <br> ${val1} / ${val2} = ${div}`
+}
+    </script>
+</body>
+</html>

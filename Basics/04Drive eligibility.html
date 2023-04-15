@@ -1,0 +1,30 @@
+<!-- Ans 13 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive eligibility</title>
+</head>
+<body>
+    <h1>Hello Sir/Madam</h1>
+    <p id="age"></p>
+
+    <script>
+        let value = prompt("Enter Your age");
+        if(value >= 18){
+            document.getElementById("age").innerText = `Your age ${value} and You are old enough to drive`
+            document.getElementById("age").style.color ='green'
+            document.getElementById("age").style.fontSize = "25px"
+
+        }
+        else{
+            document.getElementById("age").innerText ="stating to wait for the number of years he needs to turn 18."
+            document.getElementById("age").style.color ="red"
+            document.getElementById("age").style.fontSize = "25px"
+        }
+    </script>
+</body>
+</html>

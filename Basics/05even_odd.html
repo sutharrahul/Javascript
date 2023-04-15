@@ -1,0 +1,36 @@
+<!-- Ans 14 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Check the Number ODD/Even</h1>
+    <p id="num"></p>
+
+    <script>
+        let a = prompt('Enter any Number');
+        const b = 2;
+        let sum = a%b;
+        console.log(sum);
+        if(sum == 0)
+        {
+            document.querySelector("#num").innerText =  `${a} is Even Number`
+            document.querySelector("#num").style.color = "green"
+            document.querySelector("#num").style.fontSize = "25px"
+        }
+        else{
+            document.querySelector("#num").innerText =  `${a} is ODD Number`
+            document.querySelector("#num").style.color = "Red"
+            document.querySelector("#num").style.fontSize = "25px"
+        }
+        </script>
+</body>
+</html> 
+    
+
+    

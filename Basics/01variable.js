@@ -38,7 +38,7 @@
 // 04 include method
 
 // const mystring = 'This script is cool and amezing'
-// const word = 'cool'
+// const word = 'cool this'
 // if(mystring.includes(word))
 // {
 //     console.log(`The word "${word}" is in sentence`)

@@ -36,7 +36,7 @@
 // shoppingCart.splice(2,1,'Green Tea')
 // console.log(shoppingCarts);
 
-// 21
+// Q. 21
 // const contary = ['India','America','Nepal',]
 // const cnt = 'Ethiopia'
 // if(contary.includes(cnt))
@@ -48,7 +48,7 @@
 //     console.log(contary);
 // }
 
-// 22
+// Q. 22
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 console.log(ages.sort());
 /*const last = ages[ages.length-1]

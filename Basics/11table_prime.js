@@ -6,19 +6,20 @@ for(j=1; j<=10; j++){
 
 
 // Ans 27 Prime Number
-/*for (i = 0; i <= 100; i++) {
+for (i = 0; i <= 30; i++) {
     if (i == 1 || i == 0)
         continue;
     let flag = 1;
 
-    for (j = 2; j <= Math.pow(i,0.5); j++) {
+    for (j = 2; j <= i/2; j++) {
         if (i % j == 0) {
             flag = 0;
             break;
         }
     }
     if (flag == 1)
+        
         console.log(i);
         
-}*/
+}
 
